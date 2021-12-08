@@ -26,7 +26,7 @@ spec:
       containers:
       - name: spring-petclinic-s2i
         imagePullPolicy: Always
-        image: quay.io/swaraolaxmi698/rhacm:latest
+        image: quay.io/swaraolaxmi698/petclinic-dev-repo:latest
         livenessProbe:
           failureThreshold: 3
           httpGet:
