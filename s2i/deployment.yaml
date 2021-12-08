@@ -20,8 +20,8 @@ spec:
       labels:
         app: spring-petclinic-s2i
       annotations:
-        revision: "testinggitopspush"
-        buildDate: "20211207130111"
+        revision: "gitopstestpush"
+        buildDate: "20211208103658"
     spec:
       containers:
       - name: spring-petclinic-s2i
