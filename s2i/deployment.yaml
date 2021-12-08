@@ -21,7 +21,7 @@ spec:
         app: spring-petclinic-s2i
       annotations:
         revision: "gitopsdevpush"
-        buildDate: "20211208085056"
+        buildDate: "20211208122522"
     spec:
       containers:
       - name: spring-petclinic-s2i
