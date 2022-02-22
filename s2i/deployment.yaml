@@ -20,8 +20,8 @@ spec:
       labels:
         app: petclinic-dev-app
       annotations:
-        revision: "testinggitopspush"
-        buildDate: "20220222093531"
+        revision: "gitopsdevpush"
+        buildDate: "20220222101447"
     spec:
       containers:
       - name: petclinic-dev-app
