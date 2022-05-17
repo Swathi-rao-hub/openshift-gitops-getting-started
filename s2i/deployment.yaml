@@ -26,7 +26,7 @@ spec:
       containers:
       - name: petclinic-test-app
         imagePullPolicy: Always
-        image: quay.io/swaraolaxmi698/petclinic-test-repo:latest
+        image: quay.io/swaraolaxmi698/spring-petclinic-0.0.1:latest
         livenessProbe:
           failureThreshold: 3
           httpGet:
